@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="formulario.css" rel="stylesheet">
+</head>
+<body>
+        <style>
+                div.banner{
+                    z-index: 1;
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    right: 0%;
+                    height: 150px;
+                    background:linear-gradient(rgb(14, 247, 169), #16e1f0);
+                    color: blanchedalmond;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    text-align: center;
+                    border: black 3px solid;
+                   padding: 2%;
+                   text-shadow: red;
+                   font-size: 15px;                           
+                }
+                </style>
+                
+                <div class="banner"><br/><h1> ENVIAR CORREO </h1></div>
+            
+                <style>
+                    div.menu{
+                        z-index: 2;
+                    position: absolute;
+                    top: 24%;
+                    left: 0%;
+                    right: 0%;
+                    width: 15em;
+                    height: 140%;
+                    background: linear-gradient(rgb(14, 247, 169), #16e1f0); 
+                    color: rgb(248, 248, 250);
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    text-align: center;
+                    border: black 3px solid; 
+                    
+                    }
+                    div.lista{
+                        text-align: left;
+                        color:white;
+                        font-family:'Times New Roman', Times, serif;
+                        font-size: 18px;
+                    }
+                
+                </style>
+                <div class="menu"><br/> <a href="msnnuevo.html" title="enviar un nuevo mensaje">+ Redactar mensaje nuevo </a> 
+                
+                    <div class="lista"><nav><ul class="menu">
+                        <li><h2><a href="bandeja1.html"> <font color="white" title="Ir a bandeja de entrada">Recibidos</font></h2></li></a>
+                        <li><h2><a href="bandeja2.html"><font color="white" title="Ir a correos enviados">Enviados</font></h2></li></a>
+                        <li><h2><a href="bandeja3.html"> <font color="white" title="Ir a borradores">Borradores</font></h2></li></a>
+                      </ul>
+                    </nav>
+                </div>
+                
+                <br><br><br><br><br><br>
+                <div style="margin-left: 2px">   <p><a href="inicio.html">Salir de la Sesion</a></p>  </div>
+
+                </div>
+                <style>
+                div.contenido{
+                    z-index: 3;
+                    position: absolute;
+                    top: 24%;
+                    left: 15em;
+                    right: 0%;
+                    height: 140%;
+                    background: linear-gradient(rgb(14, 247, 169), #16e1f0);
+                    color: rgb(255, 255, 255);
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    text-align: center; 
+                    border: black 3px solid;
+                    }
+                
+                </style>
+
+<div class="formulario">
+<div class="contenido">
+    <br>
+    <h1><span>CORREO A ENVIAR</span></h1>
+        
+        
+             
+        <form>
+          
+            <hr>
+            <input name="email" placeholder="Correo@ejemplo.com" type="email" required/><br/>
+            <input name="asunto" placeholder="asunto*" type="text" required/><br/>
+            <textarea name="message" placeholder="Mensaje*" required></textarea><br>
+            <button type="submit" value="ENVIAR" class="boton">ENVIAR</button>
+        </form>
+    </div>
+</div>
+<!-- <form name="input" action="captura.jsp" method="get"> para enviar formulario-->
+
+</body> 
+</html>
